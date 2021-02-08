@@ -1,0 +1,68 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* @import '/fonts/Product\ Sans\ Bold.ttf';
+@import '/fonts/Product\ Sans\ Regular.ttf';
+@import '/fonts/Product\ Sans\ Bold\ Italic.ttf';
+@import '/fonts/Product\ Sans\ Italic.ttf'; */
+@font-face {
+  font-family: 'Product Sans';
+  src: url('/fonts/Product\ Sans\ Regular.ttf');
+}
+/* Your own custom component styles */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  outline: none !important;
+}
+
+td {
+  border: solid 0px #fff;
+}
+
+tr td:first-child {
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+tr td:last-child {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+.MuiSlider-root .MuiSlider-valueLabel {
+  color: #2264d1;
+}
+
+.Backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* tr:last-child td:first-child {
+  border-bottom-left-radius: 10px !important;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 10px !important;
+} */
+
+@import 'tailwindcss/utilities';
