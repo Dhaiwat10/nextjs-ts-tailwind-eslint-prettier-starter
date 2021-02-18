@@ -6,6 +6,8 @@ This repository contains boilerplate code for a React project initialized with t
 - Prettier
 - ESLint
 
+If you found this template helpful, you can help me out by starring this repository! ⭐
+
 # Available scripts:
 
 `yarn` - Install dependencies
